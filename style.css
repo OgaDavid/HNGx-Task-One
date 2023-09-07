@@ -1,0 +1,38 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styling */
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.header__details {
+    padding-top: 10px;
+    gap: 8px;
+}
