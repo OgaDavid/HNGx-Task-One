@@ -24,7 +24,6 @@ function updateDateTime() {
     timeZoneName: "short",
   });
   currentUTCtimeElement.textContent = currentUtcTime;
-
 }
 
 updateDateTime();
