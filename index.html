@@ -9,18 +9,26 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="header__container">
-        <img
-          data-testid="slackDisplayImage"
-          class="header__image"
-          src="./public//images//profile_pic.png"
-          alt="DevDave"
-        />
-        <span class="header__details flex">
-          <h1 data-testid="slackUserName">DevDave</h1>
-          <p>Frontend Engineer | React | Next JS | Typescript</p>
-        </span>
+      <div class="header">
+        <div>
+          <img src="./public//images//zuri-logo.svg" alt="zuri logo" />
+        </div>
+        <div>GitHub</div>
       </div>
     </header>
+
+    <!-- Main Content-->
+    <div class="main__container">
+      <img
+        data-testid="slackDisplayImage"
+        class="main__image"
+        src="./public//images//profile_pic.png"
+        alt="DevDave"
+      />
+      <span class="main__details flex">
+        <h1 data-testid="slackUserName">DevDave</h1>
+        <p>Frontend Engineer | React | Next JS | Typescript</p>
+      </span>
+    </div>
   </body>
 </html>

@@ -18,7 +18,13 @@ body {
 
 /* Header styling */
 
-.header__container {
+.header {
+  background-color: white;
+}
+
+/* Main styling */
+
+.main__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,13 +32,13 @@ body {
   margin-top: 20px;
 }
 
-.header__image {
+.main__image {
   width: 150px;
   height: 150px;
   border-radius: 100%;
 }
 
-.header__details {
-    padding-top: 10px;
-    gap: 8px;
+.main__details {
+  padding-top: 10px;
+  gap: 8px;
 }
