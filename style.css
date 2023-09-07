@@ -57,7 +57,8 @@ body {
 
 /* github */
 
-.github a {
+
+.github {
   margin-top: 30px;
   display: flex;
   gap: 10px;
