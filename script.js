@@ -1,6 +1,5 @@
-
 const daysOfWeek = [
-    "Sunday",
+  "Sunday",
   "Monday",
   "Tuesday",
   "Wednesday",
@@ -8,9 +7,11 @@ const daysOfWeek = [
   "Friday",
   "Saturday",
 ];
+
 const currentDayOfTheWeekElement = document.getElementById("dayOfTheWeek");
+const currentUTCtime = document.getElementById("utcTime");
 
 const currentDate = new Date();
-const currentDay = daysOfWeek[currentDate.getUTCDay()];
 
+const currentDay = daysOfWeek[currentDate.getUTCDay()];
 currentDayOfTheWeekElement.textContent = currentDay;
