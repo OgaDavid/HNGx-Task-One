@@ -16,12 +16,6 @@ body {
   align-items: center;
 }
 
-/* Header styling */
-
-.header {
-  background-color: white;
-}
-
 /* Main styling */
 
 .main__container {
@@ -29,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .main__image {
@@ -41,4 +35,20 @@ body {
 .main__details {
   padding-top: 10px;
   gap: 8px;
+}
+
+.main__details p {
+  font-weight: 600;
+}
+
+.current__day {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.current__day h3 {
+  font-size: 16px;
 }

@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <div class="header">
-        <div>
-          <img src="./public//images//zuri-logo.svg" alt="zuri logo" />
-        </div>
-        <div>GitHub</div>
-      </div>
-    </header>
-
     <!-- Main Content-->
-    <div class="main__container">
+    <main class="main__container">
       <img
         data-testid="slackDisplayImage"
         class="main__image"
         src="./public//images//profile_pic.png"
         alt="DevDave"
       />
-      <span class="main__details flex">
+      <div class="main__details flex">
         <h1 data-testid="slackUserName">DevDave</h1>
         <p>Frontend Engineer | React | Next JS | Typescript</p>
-      </span>
-    </div>
+        <span class="flex">
+          <p>Track:</p>
+          <p data-testid="myTrack">Frontend</p>
+        </span>
+      </div>
+      <div>
+        <!-- Current day of the week -->
+        <span class="current__day">
+          <h3>Today is: </h3>
+          <p id="dayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
+        </span>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>
